@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polyglot"
+version = "1.4.7"
+readme = "README.md"
+authors = [
+  {name = "isaac onagh", email = "mkalafsaz@gmail.com"}
+]
+requires-python = ">= 3.12"
+
+[project.scripts]
+polyglot = "polyglot:main"
